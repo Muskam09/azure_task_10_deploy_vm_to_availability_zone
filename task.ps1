@@ -38,7 +38,7 @@ New-AzVm `
 -ResourceGroupName $resourceGroupName `
 -Name $vmName `
 -Location $location `
--image $vmImage `
+-Image $vmImage `
 -size $vmSize `
 -SubnetName $subnetName `
 -VirtualNetworkName $virtualNetworkName `
@@ -50,7 +50,7 @@ New-AzVm `
 -ResourceGroupName $resourceGroupName `
 -Name $vmName2 `
 -Location $location `
--image $vmImage `
+-Image $vmImage `
 -size $vmSize `
 -SubnetName $subnetName `
 -VirtualNetworkName $virtualNetworkName `
